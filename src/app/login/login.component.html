@@ -1,11 +1,13 @@
 <div class="login-container">
+    <!-- Left side with the image -->
     <div class="left-side">
         <img src="../../assets/login.png" alt="Login Image" />
     </div>
 
+    <!-- Right side with the Inventory Management System name and Google login -->
     <div class="right-side">
         <h1>Inventory Management System</h1>
-        <button class="google-login-btn">
+        <button class="google-login-btn" (click)="loginWithGoogle()">
             <img src="../../assets/google-logo.png" alt="Google Logo" />
             Continue with Google
         </button>
